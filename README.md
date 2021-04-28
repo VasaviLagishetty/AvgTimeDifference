@@ -12,4 +12,4 @@
     then zero values are not diaplayed in output
   - Output Format
         
-        Avg. time for transaction **transID** : days hours(hr) minutes(min)
+        Avg. time for transaction transID : days hours(hr) minutes(min)
