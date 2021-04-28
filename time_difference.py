@@ -18,13 +18,13 @@ with open("input.txt") as f:
             else:
                 start = transactions[transaction[0]]
                 end= transaction[1]
-                difference = str(end_time - start_time)
+                difference = str(end - start)
                 days = difference.split(", ")
                 ans,t = "Avg. time for transaction "+ transaction[0] + " : ", 0
                 if len(days) == 2:
                     t = 1
-                    ans += days[0].replace(' ','') + " "
+                    ans += days[0] + " "
                 hours,minutes,seconds = (int(x) for x in days[t].split(":"))
-                if hours != 0: ans += str(hours) + "h "
-                if minutes != 0: ans += str(minutes) + "min "
+                if hours != 0: ans += str(hours) + " h "
+                if minutes != 0: ans += str(minutes) + " min "
                 print(ans)
