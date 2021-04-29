@@ -15,4 +15,4 @@
         Avg. time for transaction transID : days hours(hr) minutes(min)
 
 
-if sample output format is given/mentioned along with the problem and input it would be easy in display the output
+  if sample output format is given/mentioned along with the problem and input it would be easy in display the output.
